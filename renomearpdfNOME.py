@@ -5,9 +5,8 @@ import pandas as pd
 import re
 
 # ==== CONFIGURAÇÕES ====
-pasta_pdfs = r"C:\Users\melissa.lemes\Downloads\17.06"
-arquivo_csv = r"C:\Users\melissa.lemes\OneDrive - HITSS DO BRASIL SERVIÇOS TECNOLOGICOS LTDA\Área de Trabalho\umasopasta\rhfp0773_185165.csv"
-
+pasta_pdfs = r
+arquivo_csv = r
 # ==== LER CSV ====
 df = pd.read_csv(arquivo_csv, sep=";", encoding="latin1")
 
